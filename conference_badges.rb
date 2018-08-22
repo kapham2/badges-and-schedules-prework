@@ -4,13 +4,13 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  batch_badge_maker = []
+  batch_badges = []
   
   array.each do |name|
-    batch_badge_maker.push(badge_maker(name))
+    batch_badges.push(badge_maker(name))
   end
   
-  batch_badge_maker
+  batch_badges
 end
 
 def assign_rooms(array)
