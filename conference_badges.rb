@@ -19,6 +19,8 @@ def assign_rooms(array)
   array.each_with_index { |name, index|
     batch_room_assignments.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
   }
+  
+  batch_room_assignments
 end
 
 def printer()
