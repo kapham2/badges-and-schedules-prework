@@ -11,4 +11,5 @@ def assign_rooms(array)
   array.each_with_index do |name, index|
     hash[name] = index + 1
   end
+  puts hash
 end
