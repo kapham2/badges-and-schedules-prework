@@ -13,3 +13,8 @@ def assign_rooms(array)
     hash[name] = index + 1
   }
 end
+
+def printer()
+  puts batch_badge_creator()
+  puts assign_rooms()
+end
