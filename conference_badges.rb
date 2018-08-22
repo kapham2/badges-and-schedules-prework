@@ -13,3 +13,5 @@ def assign_rooms(array)
   end
   puts hash
 end
+
+assign_rooms(["tommy", "samba"])
