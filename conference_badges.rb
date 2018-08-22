@@ -12,7 +12,4 @@ def assign_rooms(array)
   array.each_with_index { |name, index|
     hash[name] = index + 1
   }
-  puts hash
 end
-
-assign_rooms(["tommy", "samba"])
